@@ -1,5 +1,7 @@
-- [Home](README)
-- Courses
-- Further Education
-- Employment    
+- [Home](/)
+- [Courses](courses)
+- [Competitions](competitions)
+- [Research](research)
+- [Further Education](further_education)
+- [Employment](employment)
 - [About](about)

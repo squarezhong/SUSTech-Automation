@@ -1,0 +1,46 @@
+# Courses
+
+## Roadmap
+class of 2022 
+![roadmap](img/roadmap.png)
+
+## Compulsory Courses
+### Math & Physics
+- Calculus, Linear Algebra and Physics
+- [MA212 Probability and Statistics](courses/MA212.md)
+
+### EE
+- [EE201-17L Analog Circuits Laboratory](courses/EE201-17L.md)
+- [EE202-17L Digital Circuits Laboratory](courses/EE202-17L.md)
+- [EE205 Signals and Systems](courses/EE205.md)
+- [EE351 Microprocessors and Microsystems](courses/EE351.md)
+- [EE368 Robotic Motion and Control](courses/EE368.md)
+
+### SDIM
+- [SDM263 Feedback Control Theory](courses/SDM263.md)
+- [SDM271 System Modeling and Simulation](courses/SDM271.md)
+- [SDM274 Artificial Intelligence and Machine Learning](courses/SDM274.md)
+- [SDM364 Feedback Control Theory](courses/SDM364.md)
+
+
+### Before class of 2022
+- [EE317 Advanced Experimental Studies I](courses/EE317.md)
+- [ME333 Mechatronic Systems](courses/ME333.md)
+
+## Optional Courses
+### CS
+- [CS203B Data Structures and Algorithms B](courses/CS203B.md)
+- [CS305B Computer Networks B](courses/CS305B.md)
+
+### EE
+- [EE326 Digital Image Processing](courses/EE326.md)
+- [EE332 Digital System Design](courses/EE332.md)
+- [EE340 Statistical Learning for Data Science](courses/EE340.md)
+- [EE346 Mobile Robot Navigation and Control](courses/EE346.md)
+
+### SDIM
+- [SDM273 Intelligent Sensors and Signal Processing](courses/SDM273.md)
+- [SDM357 Computer Networking and its Industrial Application](courses/SDM357.md)
+- [SDM359 Advanced Machine Learning](courses/SDM359.md)
+- [SDM366 Optimal Control and Estimation](courses/SDM366.md)
+- [SDM5006 System Identification and Adaptive Control](courses/SDM5006.md)
