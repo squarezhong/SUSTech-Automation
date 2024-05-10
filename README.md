@@ -16,6 +16,19 @@ This is an unofficial page for SUSTech Automation. It is a platform for students
 
 ## [Employment](employment.md)
 
+## Test
+You can test the page locally by running the following command in the terminal:
+1. install docsify-cli (if you haven't done so)
+```bash
+npm i docsify-cli -g
+```
+
+2. Start the server (you need to be in the father directory of the project)
+```bash
+docsify serve SUSTech-Automation
+```
+3. visit `http://localhost:3000` in your browser
+
 ## Contribution
 > How to contribute
 
