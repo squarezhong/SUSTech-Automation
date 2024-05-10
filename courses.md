@@ -11,6 +11,7 @@ class of 2022
 
 ### EE
 - [EE201-17L Analog Circuits Laboratory](courses/EE201-17L.md)
+- [EE202-17 Digital Circuits](courses/EE202-17.md)
 - [EE202-17L Digital Circuits Laboratory](courses/EE202-17L.md)
 - [EE205 Signals and Systems](courses/EE205.md)
 - [EE351 Microprocessors and Microsystems](courses/EE351.md)
