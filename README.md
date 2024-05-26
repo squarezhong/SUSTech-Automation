@@ -1,20 +1,36 @@
-# SUSTech-Automation
+
+<h1 align="center">
+  SUSTech-Automation
+</h1>
 
 > SUSTech Automation unofficial page
+
+![GitHub license](https://img.shields.io/github/license/squarezhong/SUSTech-Automation) ![GitHub stars](https://img.shields.io/github/stars/squarezhong/SUSTech-Automation?style=social)
 
 ## Introduction
 
 This is an unofficial page for SUSTech Automation. It is a platform for students to share their experience and knowledge about automation major in SDIM, SUSTech.
 
 ## [Courses](courses.md)
+点击跳转到[课程页面](courses.md) (其实那个小标题也可以点)
+
+click to jump to [courses page](courses.md) (the title can also be clicked)
 
 ## [Competitions](competitions.md)
 
+Why not participate in some competitions?
+
 ## [Research](research.md)
+
+故事会也是期刊
 
 ## [Further Education](further_education.md)
 
+质疑，理解，成为
+
 ## [Employment](employment.md)
+
+[internship](employment/internship.md)
 
 ## Test
 You can test the page locally by running the following command in the terminal:
@@ -33,6 +49,8 @@ docsify serve SUSTech-Automation
 > How to contribute
 
 > Fork this repository, add your content and submit a pull request. You can refer to [template.md](courses/template.md) for the format of the course page.
+
+## Contributors
 
 This project exists thanks to all the people who contribute. 
 
