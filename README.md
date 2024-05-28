@@ -11,6 +11,8 @@
 
 This is an unofficial page for SUSTech Automation. It is a platform for students to share their experience and knowledge about automation major in SDIM, SUSTech.
 
+*Visit our [website](https://squarezhong.github.io/SUSTech-Automation/) to get better experience.*
+
 ## [Courses](courses.md)
 点击跳转到[课程页面](courses.md) (其实那个小标题也可以点)
 
