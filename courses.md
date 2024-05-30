@@ -10,6 +10,7 @@ class of 2022
 - [MA212 Probability and Statistics](courses/MA212.md)
 
 ### EE
+- [EE201-17 Analog Circuits](courses/EE201-17.md)
 - [EE201-17L Analog Circuits Laboratory](courses/EE201-17L.md)
 - [EE202-17 Digital Circuits](courses/EE202-17.md)
 - [EE202-17L Digital Circuits Laboratory](courses/EE202-17L.md)
