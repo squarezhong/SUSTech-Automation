@@ -10,6 +10,7 @@ class of 2022
 - [MA212 Probability and Statistics](courses/MA212.md)
 
 ### EE
+- [EE201-17 Analog Circuits](courses/EE201-17.md)
 - [EE201-17L Analog Circuits Laboratory](courses/EE201-17L.md)
 - [EE202-17 Digital Circuits](courses/EE202-17.md)
 - [EE202-17L Digital Circuits Laboratory](courses/EE202-17L.md)
@@ -18,6 +19,7 @@ class of 2022
 - [EE368 Robotic Motion and Control](courses/EE368.md)
 
 ### SDIM
+
 - [SDM252 Introduction to C/C++ Programming](courses/SDM252/SDM252.md)
 - [SDM263 Feedback Control Theory](courses/SDM263.md)
 - [SDM271 System Modeling and Simulation](courses/SDM271.md)
