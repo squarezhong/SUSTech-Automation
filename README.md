@@ -14,6 +14,8 @@ This is an unofficial page for SUSTech Automation. It is a platform for students
 
 *Visit our [website](https://squarezhong.github.io/SUSTech-Automation/) to get better experience.*
 
+*Join our [QQ group](https://qm.qq.com/q/lajL5H9cHu) (755129429) if you are a student at SUSTech and want to learn more about the automation major.*
+
 ## [Courses](courses.md)
 点击跳转到[课程页面](courses.md) (其实那个小标题也可以点)
 
@@ -33,7 +35,7 @@ Why not participate in some competitions?
 
 ## [Employment](employment.md)
 
-[internship](employment/internship.md)
+[Internship](employment/internship.md)
 
 ## Test
 You can test the page locally by running the following command in the terminal:
