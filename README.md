@@ -1,3 +1,4 @@
+<img border="rounded" src="img/logo_text.jpg" alt="" width=100%>
 
 <h1 align="center">
   SUSTech-Automation
@@ -62,4 +63,4 @@ This project exists thanks to all the people who contribute.
 
 
 ## License
-MIT License (c) 2024 [SUSTech Automation]
+[MIT License](LICENSE) (c) 2024 [SUSTech Automation]
