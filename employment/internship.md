@@ -1,6 +1,6 @@
 # Internship
 
-[English](internship.md) | [简体中文](internship_cn.md)
+[English](./internship.md) | [简体中文](./internship_cn.md)
 
 ## Requirements
 
@@ -12,6 +12,6 @@ For the specific list of companies, please inquire with the department secretary
 
 > 2024 Summer 
 
-- [Googol Technology Co Ltd](intern/googol.md)
+- [Googol Technology Co Ltd](./intern/googol.md)
 
 TODO

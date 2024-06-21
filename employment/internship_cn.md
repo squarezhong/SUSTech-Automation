@@ -1,6 +1,6 @@
 # Internship
 
-[English](internship.md) | [简体中文](internship_cn.md)
+[English](./internship.md) | [简体中文](./internship_cn.md)
 
 ## Requirements
 
@@ -12,6 +12,6 @@
 
 > 2024 Summer 
 
-- [固高科技股份有限公司](intern/googol.md)
+- [固高科技股份有限公司](./intern/googol.md)
 
 TODO

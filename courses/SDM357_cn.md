@@ -1,6 +1,6 @@
 # SDM357 工业互联网
 
-[English](SDM357.md) | [简体中文](SDM357_cn.md)
+[English](./SDM357.md) | [简体中文](./SDM357_cn.md)
 
 ## 课程简介
 计算机网络（理论）+ PLC（实践）
