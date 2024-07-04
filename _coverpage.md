@@ -9,4 +9,4 @@
 - Employment
 
 [GitHub](https://github.com/squarezhong/SUSTech-Automation)
-[Getting Started](README.md)
+[Getting Started](/README.md)
