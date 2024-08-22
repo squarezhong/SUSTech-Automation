@@ -19,7 +19,6 @@ class of 2022
 - [EE368 Robotic Motion and Control](courses/EE368.md)
 
 ### SDIM
-
 - [SDM252 Introduction to C/C++ Programming](courses/SDM252.md)
 - [SDM263 Feedback Control Theory](courses/SDM263.md)
 - [SDM271 System Modeling and Simulation](courses/SDM271.md)
