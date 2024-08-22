@@ -20,7 +20,7 @@ class of 2022
 
 ### SDIM
 
-- [SDM252 Introduction to C/C++ Programming](courses/SDM252/SDM252.md)
+- [SDM252 Introduction to C/C++ Programming](courses/SDM252.md)
 - [SDM263 Feedback Control Theory](courses/SDM263.md)
 - [SDM271 System Modeling and Simulation](courses/SDM271.md)
 - [SDM274 Artificial Intelligence and Machine Learning](courses/SDM274.md)
