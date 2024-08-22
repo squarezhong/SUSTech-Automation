@@ -5,6 +5,8 @@
 </h1>
 
 > SUSTech Automation unofficial page
+>
+> Official website of SDIM: [https://sdim.sustech.edu.cn/](https://sdim.sustech.edu.cn/)
 
 ![GitHub license](https://img.shields.io/github/license/squarezhong/SUSTech-Automation) ![GitHub stars](https://img.shields.io/github/stars/squarezhong/SUSTech-Automation?style=social)
 
