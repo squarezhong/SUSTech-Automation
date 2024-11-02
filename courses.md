@@ -32,6 +32,7 @@ class of 2022
 
 ## Optional Courses
 ### CS
+- [CS201 Discrete Mathematics](courses/CS201.md)
 - [CS203B Data Structures and Algorithms B](courses/CS203B.md)
 - [CS305B Computer Networks B](courses/CS305B.md)
 
@@ -39,6 +40,7 @@ class of 2022
 - [EE326 Digital Image Processing](courses/EE326.md)
 - [EE332 Digital System Design](courses/EE332.md)
 - [EE340 Statistical Learning for Data Science](courses/EE340.md)
+- [EE342 Sensors and Applications](courses/EE342.md)
 - [EE346 Mobile Robot Navigation and Control](courses/EE346.md)
 
 ### SDIM
@@ -47,3 +49,4 @@ class of 2022
 - [SDM359 Advanced Machine Learning](courses/SDM359.md)
 - [SDM366 Optimal Control and Estimation](courses/SDM366.md)
 - [SDM5006 System Identification and Adaptive Control](courses/SDM5006.md)
+- [SDM5008 Advanced Robotics Control](courses/SDM5008.md)
