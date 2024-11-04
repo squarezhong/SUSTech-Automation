@@ -46,7 +46,7 @@ This is an unofficial page for SUSTech Automation. It is a platform for students
 - :radio: [Full-time](employment.md#full-time)
 
 ## Resources
-- :books: [Textbooks (SUSTech only)](calibre.artinx.tech) @squarezhong
+- :books: [Textbooks (SUSTech only)](https://calibre.artinx.tech) @squarezhong
 - :school_satchel: 课件、试卷、笔记等资源请访问 QQ 群“牛蛙卷饼屋”与“电子求生营”。
 
 ## Test
