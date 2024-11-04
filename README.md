@@ -1,14 +1,18 @@
+<div>
 <img border="rounded" src="img/logo_text.jpg" alt="" width=100%>
 
 <h1 align="center">
-  SUSTech-Automation
+  SUSTech-AUTOMATION
 </h1>
+<p align="center">
+  SUSTech AUTOMATION unofficial page
+</p>
+<p align="center">
+  <a href="https://nces.cra.moe/search/?q=ee+sme+sdm"><b>Official Website of SDIM</b></a>
+</p>
+</div>
 
-> SUSTech Automation unofficial page
->
-> Official website of SDIM: [https://sdim.sustech.edu.cn/](https://sdim.sustech.edu.cn/)
-
-![GitHub license](https://img.shields.io/github/license/squarezhong/SUSTech-Automation) ![GitHub stars](https://img.shields.io/github/stars/squarezhong/SUSTech-Automation?style=social)
+![Repo Size](https://img.shields.io/github/repo-size/squarezhong/SUSTech-Automation) ![GitHub license](https://img.shields.io/github/license/squarezhong/SUSTech-Automation) ![GitHub contributors](https://img.shields.io/github/contributors/squarezhong/SUSTech-Automation) ![GitHub stars](https://img.shields.io/github/stars/squarezhong/SUSTech-Automation?style=social)
 
 ## Introduction
 
@@ -18,26 +22,32 @@ This is an unofficial page for SUSTech Automation. It is a platform for students
 
 *Join our [QQ group](https://qm.qq.com/q/lajL5H9cHu) (755129429) if you are a student at SUSTech and want to learn more about the automation major.*
 
-## [Courses](courses.md)
-点击跳转到[课程页面](courses.md) (其实那个小标题也可以点)
+## Courses
+- :loop: [Roadmap](courses.md#roadmap)
+- :currency_exchange: [Compulsory Courses](courses.md#compulsory-courses)
+- :flushed: [Optional Courses](courses.md#optional-courses)
 
-click to jump to [courses page](courses.md) (the title can also be clicked)
+## Competitions
+- :robot: [Robotics Competition](competitions.md#robotics-competition)
+- :wheelchair: [Electronic Competition](competitions.md#electronic-competition)
+- :world_map: [Math Modeling](competitions.md#math-modeling)
+- :keycap_ten: [Algorithm Competition](competitions.md#algorithm-competition)
 
-## [Competitions](competitions.md)
+## Research
+- :wheelchair: TODO
 
-Why not participate in some competitions?
+## Further Education
+- :metal: [外申](further_education.md#外申)
+- :camera: [推免](further_education.md#推免)
+- :books: [考研](further_education.md#考研)
 
-## [Research](research.md)
+## Employment
+- :bulb: [Internship](employment.md#internship)
+- :radio: [Full-time](employment.md#full-time)
 
-故事会也是期刊
-
-## [Further Education](further_education.md)
-
-质疑，理解，成为
-
-## [Employment](employment.md)
-
-[Internship](employment/internship.md)
+## Resources
+- :books: [Textbooks (SUSTech only)](calibre.artinx.tech) @squarezhong
+- :school_satchel: 课件、试卷、笔记等资源请访问 QQ 群“牛蛙卷饼屋”与“电子求生营”。
 
 ## Test
 You can test the page locally by running the following command in the terminal:
@@ -53,9 +63,9 @@ docsify serve SUSTech-Automation
 3. visit `http://localhost:3000` in your browser
 
 ## Contribution
-> How to contribute
+> How to contribute?
 
-> Fork this repository, add your content and submit a pull request. You can refer to [template.md](courses/template.md) for the format of the course page.
+Fork this repository, add your content and submit a pull request. You can refer to [template.md](courses/template.md) for the format of the course page.
 
 ## Contributors
 
@@ -65,6 +75,8 @@ This project exists thanks to all the people who contribute.
   <img src="https://contrib.rocks/image?repo=squarezhong/SUSTech-Automation" />
 </a>
 
+## Star History
+![Star History Chart](https://api.star-history.com/svg?repos=squarezhong/SUSTech-Automation&type=Date)
 
 ## License
-[MIT License](LICENSE) (c) 2024 [SUSTech Automation]
+[MIT License](LICENSE) (c) 2024

@@ -1,5 +1,6 @@
+<!-- _coverpage.md -->
 
-# SUSTech Automation
+# SUSTech AUTOMATION
 
 > An unofficial page for SUSTech Automation. 
 - Courses
@@ -10,3 +11,7 @@
 
 [GitHub](https://github.com/squarezhong/SUSTech-Automation)
 [Getting Started](/README.md)
+
+<!-- background image -->
+
+![](img/rocket.jpg)
