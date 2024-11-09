@@ -48,5 +48,6 @@ class of 2022
 - [SDM357 Computer Networking and its Industrial Application](courses/SDM357.md)
 - [SDM359 Advanced Machine Learning](courses/SDM359.md)
 - [SDM366 Optimal Control and Estimation](courses/SDM366.md)
+- [SDM368 Convex Optimization and its Application in Machine Learning](courses/SDM368.md)
 - [SDM5006 System Identification and Adaptive Control](courses/SDM5006.md)
 - [SDM5008 Advanced Robotics Control](courses/SDM5008.md)
