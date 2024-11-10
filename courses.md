@@ -6,7 +6,8 @@ class of 2022
 
 ## Compulsory Courses
 ### Math & Physics
-- Calculus, Linear Algebra and Physics
+- Calculus and Physics
+- [MA113 Linear Algebra](courses/MA113.md)
 - [MA212 Probability and Statistics](courses/MA212.md)
 
 ### EE
