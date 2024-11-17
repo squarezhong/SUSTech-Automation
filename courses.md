@@ -25,6 +25,7 @@ class of 2022
 - [SDM271 System Modeling and Simulation](courses/SDM271.md)
 - [SDM274 Artificial Intelligence and Machine Learning](courses/SDM274.md)
 - [SDM364 Multi-variable Control and Applications](courses/SDM364.md)
+- [SDM405 Graduation Thesis](courses/SDM405.md)
 
 
 ### Before class of 2022
