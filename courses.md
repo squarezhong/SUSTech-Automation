@@ -53,3 +53,6 @@ class of 2022
 - [SDM368 Convex Optimization and its Application in Machine Learning](courses/SDM368.md)
 - [SDM5006 System Identification and Adaptive Control](courses/SDM5006.md)
 - [SDM5008 Advanced Robotics Control](courses/SDM5008.md)
+
+### Others
+- [COE491&492 Comprehensive Design I & II](courses/COE491%26492.md)
