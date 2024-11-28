@@ -12,7 +12,7 @@ TODO
 
 ## 推免
 ### 总体流程
-推免流程可以参考 [推免时间线](education/postgraduate_recommendation/推免流程.md)
+推免流程可以参考 [推免时间线](education/postgraduate_recommendation/recommendation_process.md)
 
 2024 夏令营、预推免信息可以参考我们搭建的 Notion 页面 [自动化抽奖 2024 (大陆篇)](https://www.notion.so/squarezhong/2024-b30ebacdba884f9ab34771d670dafb4e?pvs=4)
 数据库的 “Calendar” 视图较为实用，可以直观地查看各夏令营时间。
@@ -27,7 +27,7 @@ TODO
 笔者并未参加考研，以下内容仅供参考。
 
 ### 总体流程
-考研流程可以参考 [考研时间线](education/postgraduate_entrance_exam/考研流程.md)
+考研流程可以参考 [考研时间线](education/postgraduate_entrance_exam/exam_process.md)
 
 ### 经验分享
 TODO
