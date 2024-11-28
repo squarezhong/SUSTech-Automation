@@ -10,8 +10,18 @@ You need to earn 2 internship credits to graduate.
 
 For the specific list of companies, please inquire with the department secretary.
 
+## Areas
+Based on the curriculum design, research fields of the Department of Automation at SUSTech, as well as the internship choices of previous students, internships in the following directions would be quite suitable:
+
+- Robotics
+- Automobile research/manufacturing
+- Intelligent hardware
+- Big data/AI
+- Motion control
+
+## Companies
+
 > 2024 Summer 
 
 - [Googol Technology Co Ltd](./intern/googol.md)
-
-TODO
+    A summer internship arranged by the school in 2024, voluntary participation.
