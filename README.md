@@ -34,12 +34,13 @@ This is an unofficial page for SUSTech Automation. It is a platform for students
 - :keycap_ten: [Algorithm Competition](competitions.md#algorithm-competition)
 
 ## Research
-- :wheelchair: TODO
+- :wheelchair: [Master&PhD Admission](research.md#admission)
 
 ## Further Education
 - :metal: [外申](further_education.md#外申)
 - :camera: [推免](further_education.md#推免)
 - :books: [考研](further_education.md#考研)
+- :snowman: [MISC](further_education.md#misc)
 
 ## Employment
 - :bulb: [Internship](employment.md#internship)
@@ -48,6 +49,9 @@ This is an unofficial page for SUSTech Automation. It is a platform for students
 ## Resources
 - :books: [Textbooks (SUSTech only)](https://calibre.artinx.tech) @squarezhong
 - :school_satchel: 课件、试卷、笔记等资源请访问 QQ 群“牛蛙卷饼屋”与“电子求生营”。
+- :computer: [SUSTech CS Course Materials](https://github.com/NYH-Dolphin/SUSTech-Course-Info)
+- :bell: [SUSTech Math Course Materials](https://github.com/LunaQu4kez/SUSTech_Math_Course_Materials)
+- :cyclone: [SUSTech EE Course Materials](https://github.com/SUSTech-EE-Course-Hero/SUSTech-EE-Course-Hero)
 
 ## Test
 You can test the page locally by running the following command in the terminal:
