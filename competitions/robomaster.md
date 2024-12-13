@@ -10,6 +10,10 @@ Robomaster 官网 [Official Website](https://www.robomaster.com)
 
 你可以在 Bilibili、微信、小红书等多个社交平台搜索并关注 :robot: ARTINX 机器人战队。
 
+- [Bilibili](https://space.bilibili.com/645940972)
+- [Github 组织](https://github.com/ARTINX)
+- [团队官网](https://artinx.club/)
+
 ## News
 - [ARTINX 2025赛季 招新企划开启 | 下一站，去ARTINX！](https://mp.weixin.qq.com/s/hACpNttXWyZa0W0cHkgydA)
 - [不是重铸荣光 而是创造未来 | ARTINX战队RM2023超级对抗赛全国赛战况总结](https://mp.weixin.qq.com/s/yzk6fXNM030zs01qLVFRCg)
