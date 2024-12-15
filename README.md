@@ -1,5 +1,5 @@
 <div>
-<img border="rounded" src="img/logo_text.jpg" alt="" width=100%>
+<img border="rounded" src="img/aim.svg" alt="" width=100%>
 
 <h1 align="center">
   SUSTech-AUTOMATION
