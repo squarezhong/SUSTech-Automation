@@ -8,7 +8,7 @@
   SUSTech AUTOMATION unofficial page
 </p>
 <p align="center">
-  <a href="https://nces.cra.moe/search/?q=ee+sme+sdm"><b>Official Website of SDIM</b></a>
+  <a href="https://sdim.sustech.edu.cn"><b>Official Website of SDIM</b></a>
 </p>
 </div>
 
@@ -16,7 +16,7 @@
 
 ## Introduction
 
-This is an unofficial page for SUSTech Automation. It is a platform for students to share their experience and knowledge about automation major in SDIM, SUSTech.
+This is an unofficial page for SUSTech Automation. It is a platform for students to share their experience and knowledge about automation major in AIM, SUSTech.
 
 *Visit our [website](https://squarezhong.github.io/SUSTech-Automation/) to get better experience.*
 
