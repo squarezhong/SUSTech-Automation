@@ -25,6 +25,7 @@ class of 2022
 - [SDM263 Feedback Control Theory](courses/SDM263.md)
 - [SDM271 System Modeling and Simulation](courses/SDM271.md)
 - [SDM274 Artificial Intelligence and Machine Learning](courses/SDM274.md)
+- [SDM302 Innovative Practice for Intelligent Control Science II](courses/SDM302.md)
 - [SDM364 Multi-variable Control and Applications](courses/SDM364.md)
 - [SDM405 Graduation Thesis](courses/SDM405.md)
 
