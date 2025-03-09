@@ -181,3 +181,72 @@ $$
 $$
 R_{uy}(m)=\frac1{rn_p}\sum_{k=0}^{rn_p-1}u(k-m)y(k),~m=0,1,...,n_p-1
 $$
+
+# 梯度下降法
+
+只对每次进来的$\phi(k)$起作用，即上式的$R^{-1}(k)=\frac{\alpha\phi(k)}{c+\phi^T(k)\phi(k)}$
+$$
+\hat \theta(k)=\hat\theta(k-1)+\frac{\alpha\phi(k)}{c+\phi^T(k)\phi(k)}\left(y(k)-\phi^T(k)\hat\theta(k-1)\right)
+$$
+
+其中，$0<\alpha<2, ~ c>0$
+
+# 牛顿迭代法
+
+其实就是让$R(k)$的影响逐渐减小，直到收敛，因此前面乘以一个逐渐收敛的系数$\rho(k)$.
+$$
+\begin{aligned}
+\hat \theta(k)&=\hat\theta(k-1)+\rho(k)R^{-1}(k)\phi(k)\left(y(k)-\phi^T(k)\hat\theta(k-1)\right)\\
+R(k)&=R(k-1)+\rho(k)\left(\phi(k)\phi^T(k)-R(k-1)\right)
+
+\end{aligned}
+$$
+
+其中，$R(0)=\lambda I$, $\rho(k)$的选择需要满足以下条件：
+$$
+\begin{aligned}
+\rho(k)>0,~\lim_{k\rightarrow\infty}\rho(k)=0,\\
+\sum_{k=1}^\infty\rho(k)=\infty, \sum_{k=1}^\infty\rho^2(k)=\sigma^2
+
+\end{aligned}
+$$
+通常，$\rho(k)$可以选取$\rho(k)=\frac1k$。
+
+# 频域分析法
+
+了解即可。
+
+# 卡尔曼滤波器法
+
+对于包含噪声项v和w的系统：
+$$
+\begin{aligned}
+x(k+1)&=Fx(k)+Gu(k)+v(k)\\
+y(k)&=Hx(k)+w(k)\end{aligned}
+$$
+卡尔曼滤波器的递推更新公式为：
+
+* 预测
+
+$$
+\begin{aligned}
+\hat x(k+1|k)&=F\hat x(k|k)+Gu(k)\\
+P(k+1|k)&=FP(k|k)F^T+Q\end{aligned}
+$$
+
+* 相关性计算
+
+$$
+\begin{aligned}
+S&=HP(k+1|k)H^T+R\\
+W&=P(k+1|k)HS^{-1}\\
+\Delta x(k+1)&=W(y(k+1)-H\hat(x+1|k))\end{aligned}
+$$
+
+* 更新
+
+$$
+\begin{aligned}
+\hat x(k+1|k+)&=\hat x(k+|k)+\Delta x(k+1)\\
+P(k+1|k+)&=P(k+1|k)-WSW^T\end{aligned}
+$$

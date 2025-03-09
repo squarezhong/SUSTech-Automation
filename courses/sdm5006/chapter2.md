@@ -122,8 +122,6 @@ $$
 $$
 > 惊讶的发现，这是一个一阶低通滤波器的模型。因而，若系统稳定，我们想办法让该方法递归得到的$\theta_k$随着时间趋近于收敛，就能够实现递归的最小二乘法。
 
-==todo== 推导
-
 最终，在线更新的方程将变为：
 $$
 \begin{aligned}
@@ -153,12 +151,8 @@ P(k) &= \frac1\lambda\left[ P(k-1) - \frac{P(k-1)\phi(k)\phi^T(k)P(k-1)}{\lambda
 $$
 # 泛最小二乘
 
-课程官方教学matlab文件：[example241.m](../../matcodes/cpt2/example241.m)
-
-==todo==（大概是一窝蜂的把所有的a，b都写上去，时间不够，先跳过了。）
+见课程官方教学matlab文件：example241.m
 
 # 多变量系统的最小二乘系统辨识方法
 
-课程官方教学matlab文件：[example251.m](../../matcodes/cpt2/example251.m)
-
-==todo==（大概是相当于把单变量的矩阵拼接起来，时间不够，先跳过了）
+见课程官方教学matlab文件：example251.m
