@@ -75,10 +75,92 @@ $$
 
 对于上述系统而言，假设F，C，G为其丢番图方程解，最小方差控制律将会是：
 $$
-F(q^{-1})u(k)=C(q^{-1})y(k+d)-G(q^{-1})y(k)
+F(q^{-1})u(k)=C(q^{-1})y_r(k+d)-G(q^{-1})y(k)
 $$
 
+这里我们需要用到式（6.1.1）和（6.2.1）
 
+>它们分别是：
+
+$$
+\begin{align}
+\begin{cases}
+C&=A(q^{-1})E(q^{-1})+q^{-d}G(q^{-1})\\
+F(q^{-1})&=B(q^{-1})E(q^{-1})\\
+\end{cases}\tag{6.1.1}\\
+A(q^{-1})y(k)=q^{-d}B(q^{-1})u(k)+C(q^{-1})\xi(k)\tag{6.2.1}
+\end{align}
+$$
+
+首先，把（6.1.1）带入（6.2.1）得到：
+
+$$
+\begin{aligned}
+A(q^{-1})y(k) &= q^{-d}B(q^{-1}) u(k) + A(q^{-1})E(q^{-1}) + q^{-d}G(q^{-1})\xi(k)\\
+\rightarrow
+y(k) &= \frac{q^{-d}B(q^{-1})}{A(q^{-1})} u(k) + \frac{A(q^{-1})E(q^{-1}) + q^{-d}G(q^{-1})}{A(q^{-1})} \xi(k)\\
+&=\frac{q^{-d}B(q^{-1})}{A(q^{-1})} u(k) + \left(E(q^{-1})+\frac{q^{-d}G(q^{-1})}{A(q^{-1})}\right) \xi(k)\\
+&=E(q^{-1})\xi(k)+\frac{q^{-d}B(q^{-1})}{A(q^{-1})} u(k) +\frac{q^{-d}G(q^{-1})}{A(q^{-1})}\xi(k)
+\end{aligned}
+$$
+
+然后，我们将它k改为k+d时刻的输出：
+$$
+\begin{aligned}
+y(k+d) &= E(q^{-1})\xi(k+d)+\frac{q^{-d}B(q^{-1})}{A(q^{-1})} u(k+d) +\frac{q^{-d}G(q^{-1})}{A(q^{-1})}\xi(k+d)\\
+&= E(q^{-1})\xi(k+d)+\frac{B(q^{-1})}{A(q^{-1})} u(k) +\frac{G(q^{-1})}{A(q^{-1})}\xi(k)
+\end{aligned}
+$$
+随后，我们根据（6.2.1）式可以知道$\xi(k)=\frac{A(q^{-1})y(k)-q^{-d}B(q^{-1})u(k)}{C(q^{-1})}$，将它带入上式第三项：
+$$
+\begin{aligned}
+y(k+d) &= E(q^{-1})\xi(k+d)+\frac{q^{-d}B(q^{-1})}{A(q^{-1})} u(k+d) +\frac{q^{-d}G(q^{-1})}{A(q^{-1})}\xi(k+d)\\
+&= E(q^{-1})\xi(k+d)+\frac{B(q^{-1})}{A(q^{-1})} u(k) +\frac{G(q^{-1})}{A(q^{-1})}
+\frac{A(q^{-1})y(k)-q^{-d}B(q^{-1})u(k)}{C(q^{-1})}\\
+&= E(q^{-1})\xi(k+d)+\frac{B(q^{-1})}{A(q^{-1})} u(k) +
+\frac{G(q^{-1})}{C(q^{-1})}y(k)-
+\frac{q^{-d}G(q^{-1})B(q^{-1})}{A(q^{-1})C(q^{-1})}u(k)\\
+&= E(q^{-1})\xi(k+d)+
+\frac{G(q^{-1})}{C(q^{-1})}y(k)+
+\frac{B(q^{-1})\left(C(q^{-1})-q^{-d}G(q^{-1})\right)}{A(q^{-1})C(q^{-1})}u(k)\\
+\end{aligned}
+$$
+由式（6.1.1）我们可以知道，$C(q^{-1})q^{-d}G(q^{-1})=A(q^{-1})E(q^{-1}),~B(q^{-1})E(q^{-1})=F(q^{-1})$，因此：
+$$
+\begin{aligned}
+\frac{B(q^{-1})\left(C(q^{-1})-q^{-d}G(q^{-1})\right)}{A(q^{-1})C(q^{-1})}&=\frac{B(q^{-1})A(q^{-1})E(q^{-1})}{A(q^{-1})C(q^{-1})}\\
+&=\frac{B(q^{-1})E(q^{-1})}{C(q^{-1})}\\
+&=\frac{F(q^{-1})}{C(q^{-1})}
+\end{aligned}
+$$
+最终得出：
+$$
+y(k+d) = E(q^{-1})\xi(k+d)+
+\frac{G(q^{-1})}{C(q^{-1})}y(k)+
+\frac{F(q^{-1})}{C(q^{-1})}u(k)\tag{6.2.3*}
+$$
+
+因此，代价函数可以被改写为：
+$$
+\begin{aligned}
+J(k) &= \mathbb{E} \left\{ e^2(k+d|k) \right\} \\
+     &= \mathbb{E} \left\{ \left( y(k+d) - \hat{y}(k+d|k) \right)^2 \right\} \\
+     &= \mathbb{E} \left\{ \left( E(q^{-1}) \xi(k+d) + \frac{F(q^{-1})}{C(q^{-1})} u(k) + \frac{G(q^{-1})}{C(q^{-1})} y(k) - \hat{y}(k+d|k) \right)^2 \right\} \\
+     &= \mathbb{E} \left\{ \left( E(q^{-1}) \xi(k+d) \right)^2 \right\} \\
+     &\quad+ \mathbb{E} \left\{ 2 E(q^{-1}) \xi(k+d) \left( \frac{F(q^{-1})}{C(q^{-1})} u(k) + \frac{G(q^{-1})}{C(q^{-1})} y(k) - \hat{y}(k+d|k) \right) \right\} \\
+     &\quad + \mathbb{E} \left\{ \left( \frac{F(q^{-1})}{C(q^{-1})} u(k) + \frac{G(q^{-1})}{C(q^{-1})} y(k) - \hat{y}(k+d|k) \right)^2 \right\}.
+\end{aligned}\tag{6.2.4}
+$$
+第二项中，由于白噪声$\mathbb{E}\left(\xi(k+d)\right)$的数学期望为0，因此第二项也为0。第一项因为噪声是我们无法控制的部分且和控制u无关，因此我们不进行分析。因此，我们期望使得第三项最小，第三项取最小的时候，显然：
+$$
+\frac{F(q^{-1})}{C(q^{-1})} u(k) + \frac{G(q^{-1})}{C(q^{-1})} y(k) - \hat{y}(k+d|k)=0
+$$
+最好的情况下，**预测输出和期望输出相等**，即$\hat y(k+d|k)=y_r(k+d)$。课件Chapter6-part的第17小页（第9大页）证明了为什么这种情况会最好，不过我相信聪明的你的直觉已经告诉你这一点了，因此这里我将不作证明。
+
+最终得出控制律为：
+$$
+F(q^{-1})u(k)=C(q^{-1})y_r(k+d)-G(q^{-1})y(k)
+$$
 
 # 最小方差间接自校正控制
 
